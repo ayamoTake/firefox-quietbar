@@ -1,0 +1,44 @@
+#main-window > body 
+{
+    position: relative !important;
+}
+
+#browser 
+{
+    position: absolute !important;
+    top: 25px !important; /* hover area for showing the navbar */
+    left: 0; right: 0; bottom: 0;
+}
+
+#navigator-toolbox:hover #urlbar,
+#navigator-toolbox:focus-within #urlbar
+{
+    opacity: 1;
+    transition-delay: 0.35s !important; 
+}
+
+#navigator-toolbox:hover,
+#navigator-toolbox:focus-within
+{
+    opacity: 1;
+    max-height: 500px; /* large enough to fit content */
+    transition-delay: 0.35s !important; 
+}
+
+#urlbar, 
+#navigator-toolbox
+{
+    opacity: 0;
+    transition: all 0.3s ease-in-out !important;
+    z-index: 10 !important;
+}
+
+#navigator-toolbox 
+{
+    max-height: 25px;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.tab-group-editor-panel:hover 
+{
+}
