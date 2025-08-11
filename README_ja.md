@@ -5,12 +5,12 @@
 
 `firefox-quietbar` が提供する CSS のスニペットは必要な時にだけ, それらを使えるようにします.
 
+## 導入方法
+
 ## 機能
 
 - タブバーとツールバーを隠す
 - 上部にホバーまたはアドレスバーなどにフォーカスした際に表示させる
-
-## 導入方法
 
 ## 他の似た設定と異なるところ
 
@@ -21,12 +21,12 @@
 
 - 全画面表示（F11キー）
 - アドオン [New window without toolbar](https://addons.mozilla.org/en-US/firefox/addon/new-window-without-toolbar/)
-- userChrome.css [UserChrome-Tweaks/navbar](https://github.com/Timvde/UserChrome-Tweaks/tree/master/navbar)
-- userChrome.css [firefox-autohide-navbar](https://github.com/3ae3ae/firefox-autohide-navbar/tree/main)
+- [UserChrome-Tweaks/navbar@Timvde](https://github.com/Timvde/UserChrome-Tweaks/tree/master/navbar)
+- [firefox-autohide-navbar@3ae3ae](https://github.com/3ae3ae/firefox-autohide-navbar/tree/main)
 
 ## カスタマイズ
 
-以下の変数を編集することで挙動を変更できる:
+`userChrome.css` の冒頭にかいてある, 以下の変数の値を編集することで挙動を変更できる:
 
 ```css
 :root {
