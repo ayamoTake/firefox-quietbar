@@ -5,6 +5,8 @@
 
 `firefox-quietbar` が提供する CSS のスニペットは必要な時にだけ, それらを使えるようにします.
 
+https://github.com/user-attachments/assets/b29263d7-dcc4-4282-99cc-04526b3c1c97
+
 ## 導入方法
 
 ## 機能
