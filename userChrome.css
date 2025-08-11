@@ -1,3 +1,16 @@
+
+:root {
+    --navbar-hover-area-height: 25px;
+        /* Height of the hover area that triggers the navbar to appear */
+        /* バーの表示のきっかけとなるエリアの高さ */
+    --navbar-show-delay: 0.35s;
+        /* Delay before navbar appears on hover */
+        /* ホバーしてから現れるまでの遅れ */
+    --navbar-transition-duration: 0.3s;
+        /* Duration of transition ease-in-out */
+        /* バーが現れる時間 */
+}
+
 #main-window > body 
 {
     position: relative !important;
@@ -6,7 +19,7 @@
 #browser 
 {
     position: absolute !important;
-    top: 25px !important; /* hover area for showing the navbar */
+    top: var(--navbar-hover-area-height) !important;
     left: 0; right: 0; bottom: 0;
 }
 
@@ -14,7 +27,7 @@
 #navigator-toolbox:focus-within #urlbar
 {
     opacity: 1;
-    transition-delay: 0.35s !important; 
+    transition-delay: var(--navbar-show-delay) !important; 
 }
 
 #navigator-toolbox:hover,
@@ -22,21 +35,21 @@
 {
     opacity: 1;
     max-height: 500px; /* large enough to fit content */
-    transition-delay: 0.35s !important; 
+    transition-delay: var(--navbar-show-delay) !important; 
 }
 
 #urlbar, 
 #navigator-toolbox
 {
     opacity: 0;
-    transition: all 0.3s ease-in-out !important;
+    transition: all var(--navbar-transition-duration) ease-in-out !important;
     z-index: 10 !important;
 }
 
 #navigator-toolbox 
 {
-    max-height: 25px;
-    transition: all 0.3s ease-in-out !important;
+    max-height: var(--navbar-hover-area-height);
+    transition: all var(--navbar-transition-duration) ease-in-out !important;
 }
 
 .tab-group-editor-panel:hover 
