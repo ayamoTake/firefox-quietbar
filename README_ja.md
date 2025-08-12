@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/b29263d7-dcc4-4282-99cc-04526b3c1c97
         /* ホバーしてから現れるまでの遅れ */
     --navbar-transition-duration: 0.3s;
         /* Duration of transition ease-in-out */
-        /* バーが現れる時間 */
+        /* バーが現れるのにかかる時間 */
 }
 ```
 
@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/b29263d7-dcc4-4282-99cc-04526b3c1c97
 ## TODO 
 - [x] 各種方法との比較
 - [x] 変数を用意し, カスタマイズ性を上げる
-- [ ] 全画面にした時, ホバーエリアを消す
+- [x] 全画面にした時, ホバーエリアを消す
 - [ ] 設定用スクリプト
 - [ ] navbar から出たペインにホバー時
 

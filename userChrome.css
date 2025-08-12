@@ -8,7 +8,7 @@
         /* ホバーしてから現れるまでの遅れ */
     --navbar-transition-duration: 0.3s;
         /* Duration of transition ease-in-out */
-        /* バーが現れる時間 */
+        /* バーが現れるのにかかる時間 */
 }
 
 #main-window > body 
