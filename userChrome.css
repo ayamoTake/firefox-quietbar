@@ -23,6 +23,13 @@
     left: 0; right: 0; bottom: 0;
 }
 
+:root[inDOMFullscreen] #browser
+{
+    position: absolute !important;
+    top: 0 !important;
+    left: 0; right: 0; bottom: 0;
+}
+
 #navigator-toolbox:hover #urlbar,
 #navigator-toolbox:focus-within #urlbar
 {
