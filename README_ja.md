@@ -9,9 +9,9 @@ https://github.com/user-attachments/assets/b29263d7-dcc4-4282-99cc-04526b3c1c97
 
 ## 導入方法
 
-1. [about:config](about:config) を開き, `toolkit.legacyUserProfileCustomizations.stylesheets` を `true` にする
-2. [about:profiles](about:profiles) から使用中のプロファイルに設定されているディレクトリを確認する
-3. 2. で確認したディレクトリに `chrome` というディレクトリを作る
+1. アドレスバーから `about:config` を開き, `toolkit.legacyUserProfileCustomizations.stylesheets` を `true` にする
+2. アドレスバーから `about:profiles` を開き, 使用中のプロファイルに設定されているディレクトリを確認する
+3. 確認したディレクトリに `chrome` というディレクトリを作る
 4. そこにこのリポジトリの `userChrome.css` を配置する
 5. Firefox を再起動する
 
